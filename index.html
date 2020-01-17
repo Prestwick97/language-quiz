@@ -11,9 +11,11 @@
   <title>Programming Language Quiz</title>
 </head>
 <body>
+  <div class="container">
 
-  <h1>Which language is right for you?</h1>
-  <!-- <h2>"html", "CSS", "Javascript", or "Ruby"</h2> -->
+
+  <h1>Which language is right for you?</h1> 
+  
   <br>
 
   <form id="language">
@@ -30,7 +32,9 @@
       <option value="3">octagon</option>
       <option value="4">square</option>
     </select>
+
     <br>
+
     <h2>Which animal brings you the most joy?</h2>
     <select class="form-control" id="animal">
       <option value="a">cat</option>
@@ -38,9 +42,11 @@
       <option value="c">horse</option>
       <option value="d">dragon</option>
     </select>
+
     <br>
+    
     <div class="form-group">
-      <label for="color">What is your favorite color?</label>
+      <label for="color"><h2>What is your favorite color?</h2></label>
       <input id="color" class="form-control" type="color">
     </div>
     <button class="btn btn-info" type="submit">Get your answer!</button>
@@ -50,6 +56,6 @@
   <h1 class="jumbotron answer" id="css">CSS</h1>
   <h1 class="jumbotron answer" id="java">JAVASCRIPT</h1>
 
-  
+  </div>
 </body>
 </html>
