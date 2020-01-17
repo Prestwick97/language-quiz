@@ -5,7 +5,7 @@ $(document).ready(function() {
     event.preventDefault();
     if("1"&&"a")
     $("#css").show();
-    else if ($("#java").show());
+    else ($("#java").show());
   });
 
 });
