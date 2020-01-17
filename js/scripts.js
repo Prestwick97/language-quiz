@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
   // $("ol").on("click", "li", function() {
   //   console.log(this);
   //   $(this).next().slideToggle();
@@ -10,5 +10,5 @@ $(document).ready(function() {
   //   else ($("#java").show());
   // });
 
-});
+// });
  prompt("Is this working???");
