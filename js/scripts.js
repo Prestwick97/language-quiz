@@ -12,7 +12,9 @@ $(document).ready(function() {
     $("#python").show();
     // else if (shape === "2" && animal === "b" &&author ==="j" && baby ==="6" && money === "f")
     // $("#java").show();
-    else $("C").show();
+    else if("2" && "b" && "j" && "6" && "f")
+    $("C").show();
+    else $("java").show();
   });
 
 });
