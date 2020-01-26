@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#python").show();
     }
     
-    else if(shape == "2" && animal == "b" && suthor == "j" && baby == "6" && money == "f") {
+    else if(shape == "2" && animal == "b" && author == "j" && baby == "6" && money == "f") {
     $("C").show();
     }
 
